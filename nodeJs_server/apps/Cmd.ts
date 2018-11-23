@@ -3,7 +3,6 @@ export default class Cmd {
 	// 所有的服务都会收到网关转发过来的这个时间这个消息
     static USER_DISCONNECT = 10000;
     static BROADCAST = 10001;
-
     static Auth = {
         GUEST_LOGIN: 1, // 游客登录
         RELOGIN: 2, // 账号在另外的地方登陆
